@@ -1,5 +1,5 @@
-FROM ros:jazzy-ros-core
-ENV ROS_DISTRO=jazzy
+FROM ros:iron-ros-core
+ENV ROS_DISTRO=iron
 
 RUN apt-get update -y && apt-get install -y \
     ros-${ROS_DISTRO}-mavros \
