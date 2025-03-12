@@ -5,7 +5,9 @@ RUN apt-get update -y && apt-get install -y \
     ros-${ROS_DISTRO}-mavros \
     ros-${ROS_DISTRO}-mavros-extras \
     ros-${ROS_DISTRO}-mavros-msgs \
-    ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
+    ros-${ROS_DISTRO}-rmw-cyclonedds-cpp
+
+RUN apt-get update -y && apt-get install -y \
     python3-colcon-common-extensions \
     python3-pip \
     build-essential \
