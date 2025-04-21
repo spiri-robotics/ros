@@ -1,5 +1,5 @@
-FROM ros:jazzy-ros-core
-ENV ROS_DISTRO=jazzy
+FROM ros:humble-ros-core
+ENV ROS_DISTRO=humble
 
 RUN apt-get update -y && apt-get install -y \
     ros-${ROS_DISTRO}-mavros \
