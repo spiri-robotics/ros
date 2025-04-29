@@ -8,6 +8,7 @@ RUN apt-get update -y && apt-get install -y \
     ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
     python3-colcon-common-extensions \
     python3-pip \
+    python3-rosdep \
     build-essential \
     make
 
